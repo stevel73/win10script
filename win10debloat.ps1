@@ -1945,7 +1945,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.Microsoft3DViewer" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftPowerBIForWindows" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
+	#Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
@@ -2524,7 +2524,7 @@ Function DebloatAll {
         "Microsoft.Getstarted"
         "Microsoft.Messaging"
         "Microsoft.Microsoft3DViewer"
-        "Microsoft.MicrosoftSolitaireCollection"
+        #"Microsoft.MicrosoftSolitaireCollection"
         "Microsoft.NetworkSpeedTest"
         "Microsoft.News"
         "Microsoft.Office.Lens"
@@ -2532,14 +2532,14 @@ Function DebloatAll {
         "Microsoft.OneConnect"
         "Microsoft.People"
         "Microsoft.Print3D"
-        "Microsoft.SkypeApp"
+        #"Microsoft.SkypeApp"
         "Microsoft.StorePurchaseApp"
         "Microsoft.Whiteboard"
         "Microsoft.WindowsAlarms"
         "microsoft.windowscommunicationsapps"
         "Microsoft.WindowsFeedbackHub"
         "Microsoft.WindowsMaps"
-        "Microsoft.WindowsSoundRecorder"
+        #"Microsoft.WindowsSoundRecorder"
         "Microsoft.ZuneMusic"
         "Microsoft.ZuneVideo"
 
